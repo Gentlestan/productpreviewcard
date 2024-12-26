@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2eae2;
+  margin: 0;
+  font-family: "Montserrat";
+  font-family: "Fraunces", serif;
+  padding-top: 0.5rem;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+article {
+  width: 90%;
+}
+
+.mobile-img,
+.desktop-img {
+  width: 100%;
+  border-radius: 0.3125rem;
+}
+.img-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.perfume-txt {
+  color: #6c7289;
+  font-family: "Montserrat", serif;
+  font-size: 0.75rem;
+  line-height: 1.438rem;
+  font-weight: 500;
+  letter-spacing: 0.313rem;
+}
+h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: "Fraunces", serif;
+  font-style: normal;
+}
+p {
+  color: #6c7289;
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.438rem;
+  font-weight: 500;
+  margin-top: 0.938rem;
+  margin-bottom: 1.5rem;
+}
+.price-section {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.sales-price {
+  color: #3d8168;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-right: 1.125rem;
+  font-family: "Fraunces", serif;
+}
+.price {
+  text-decoration: line-through;
+  font-size: 0.813rem;
+  color: #6c7289;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.cart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-icon {
+  padding-right: 0.3125rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+button {
+  background-color: #3d8168;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 0.3125rem;
+  border: none;
+  width: 100%;
+}
+
+.cart-icon {
+  width: 14.39px;
+  height: 16px;
+}
+
+@media (min-width: 600px) {
+  body {
+    padding-top: 4rem;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+  }
+  .mobile-img {
+    display: none;
+  }
+
+  article {
+    padding-left: 1rem;
+    width: 100%;
+  }
+  p {
+    padding-right: 1rem;
+  }
+  h1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .price-section {
+    padding-bottom: 1rem;
+  }
+  .btn {
+    padding-top: 1rem;
+    padding-bottom: 0;
+    width: 100%;
+    padding-right: 1rem;
+  }
+  .img-section {
+    padding-bottom: 0;
+  }
+  main {
+    max-width: 38rem;
+  }
+}
+@media (max-width: 599px) {
+  .desktop-img {
+    display: none;
+  }
+  h1 {
+    padding-top: 1rem;
+  }
+  .btn {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  body {
+    height: 100vh;
+  }
+}
