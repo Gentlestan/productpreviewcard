@@ -159,9 +159,12 @@ button {
   }
   .btn {
     padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
   }
-  body {
-    height: 100vh;
+  .img-section {
+    padding-bottom: 1rem;
+  }
+  .perfume-txt {
+    padding-top: 1rem;
   }
 }
