@@ -112,11 +112,16 @@ button {
 
 @media (min-width: 600px) {
   body {
-    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
   main {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     max-width: 80%;
   }
   .mobile-img {
@@ -155,7 +160,10 @@ button {
     display: none;
   }
   body {
-    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
   }
 
   h1 {
